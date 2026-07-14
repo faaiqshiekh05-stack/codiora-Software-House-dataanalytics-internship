@@ -1,303 +1,326 @@
-# 🐞 Bug Dataset Analysis & Cleaning Pipeline
+# 📊 Codiora Software House Data Analytics Internship
 
-A complete Python-based data cleaning and feature engineering pipeline developed to prepare a software bug tracking dataset containing **50,000 records** for Business Intelligence and data visualization.
+![Data Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-green)
+![SQL](https://img.shields.io/badge/SQL-Database-orange)
 
-This project transforms raw bug tracking data into a clean, structured dataset ready for dashboards in **Power BI**, **Tableau**, or other analytics platforms.
+# 🚀 Overview
+
+Welcome to my **Data Analytics Internship Repository at Codiora Software House**.
+
+This repository contains all the projects, tasks, analyses, dashboards, reports, and documentation completed during my internship journey.
+
+Throughout this internship, I worked on different stages of the **Data Analytics lifecycle**, including data collection, data cleaning, exploratory data analysis, SQL analysis, dashboard development, business intelligence reporting, and data storytelling.
+
+The main objective was to transform raw datasets into meaningful insights and create professional analytical solutions that support data-driven decision-making.
 
 ---
 
-# 📌 Project Overview
+# 🎯 Internship Objectives
 
-The objective of this project is to clean, standardize, and enrich a large software bug tracking dataset by applying professional data preprocessing techniques.
+During this internship, my focus was to:
 
-The pipeline performs:
-
-- Data exploration
-- Missing value handling
-- Duplicate removal
-- Data standardization
-- Feature engineering
-- Export of a clean dataset for BI reporting
-
-The final cleaned dataset can be directly used for interactive dashboards and advanced analytics.
+- Understand real-world datasets and business problems
+- Perform data cleaning and preprocessing
+- Analyze data using Python and SQL
+- Create interactive dashboards using Power BI
+- Generate meaningful business insights
+- Develop professional reports and presentations
+- Improve practical Data Analyst skills
 
 ---
 
 # 📂 Repository Structure
 
-```
-├── Week 2
-├── Week 3
-├── Week 4
-├── Week 5
-├── Week 6
-├── Week 7
-├── Week 8
+
+Codiora-Software-House-Data-Analytics-Internship/
+
+│
+├── 📁 Task 1 - Data Understanding & Cleaning
+│ ├── Dataset Files
+│ ├── Python Analysis
+│ └── Data Cleaning Reports
+│
+├── 📁 Task 2 - Exploratory Data Analysis
+│ ├── EDA Notebooks
+│ ├── Data Visualizations
+│ └── Analysis Results
+│
+├── 📁 Task 3 - SQL Database Analysis
+│ ├── SQL Queries
+│ ├── Database Scripts
+│ └── Query Results
+│
+├── 📁 Task 4 - Business Intelligence Dashboard
+│ ├── Power BI Files
+│ ├── Dashboard Screenshots
+│ └── Reports
+│
+├── 📁 Task 5 - Advanced Analysis
+│ ├── Insights
+│ ├── Comparisons
+│ └── Business Findings
+│
+├── 📁 Final Business Intelligence Project
+│ ├── Executive Report
+│ ├── Presentation
+│ ├── Dashboard
+│ └── Documentation
+│
 └── README.md
-```
+
 
 ---
 
-# 📊 Dataset Information
+# 🛠️ Tools & Technologies Used
 
-The dataset contains **50,000 software bug records** with information such as:
+## Programming & Data Analysis
 
-- Bug ID
-- Bug Title
-- Bug Category
-- Bug Domain
-- Tech Stack
-- Severity
-- Environment
-- Developer Role
-- Root Cause
-- Error Code
-- Status
-- Created Date
+🐍 **Python**
 
-Initial Dataset:
+Libraries used:
 
-- **50,000 Rows**
-- **14 Columns**
-
-After Feature Engineering:
-
-- **50,000 Rows**
-- **20 Columns**
-
----
-
-# 🛠️ Data Cleaning Process
-
-## 1. Data Exploration
-
-The pipeline begins with an initial inspection of the dataset.
-
-Performed tasks include:
-
-- Loading the dataset
-- Checking data types
-- Reviewing dataset shape
-- Detecting missing values
-- Identifying duplicate records
-
----
-
-## 2. Missing Value Handling
-
-The dataset contained missing values in the **error_code** column.
-
-These missing numerical values were filled using the **median** of the column to preserve data distribution.
-
----
-
-## 3. Duplicate Removal
-
-The script checks for:
-
-- Exact duplicate rows
-- Duplicate Bug IDs
-
-Any duplicate records are removed to ensure data integrity.
-
----
-
-## 4. Text Cleaning
-
-All text columns are cleaned by removing:
-
-- Leading spaces
-- Trailing spaces
-- Extra whitespace
-
-This prevents inconsistent category names during analysis.
-
----
-
-## 5. Data Standardization
-
-Several categorical columns are converted into a consistent **Title Case** format.
-
-Columns standardized include:
-
-- Bug Category
-- Bug Domain
-- Tech Stack
-- Severity
-- Environment
-- Developer Role
-- Root Cause
-
-The **created_at** column is also converted into a proper datetime format.
-
----
-
-# ⚙️ Feature Engineering
-
-To support Business Intelligence dashboards, several calculated fields were created.
-
-### Time-Based Features
-
-From the created date:
-
-- Year
-- Month
-- Quarter
-- Day of Week
-
-These fields make time-series analysis much easier.
-
----
-
-### High Severity Flag
-
-A new column identifies whether a bug has high severity.
-
-Values:
-
-- Yes
-- No
-
----
-
-### Error Code Availability
-
-Another calculated field indicates whether an error code exists.
-
-Values:
-
-- Available
-- Missing
-
----
-
-# 📈 Dashboard Support
-
-The cleaned dataset is optimized for dashboard development.
-
-The repository includes:
-
-- **Dashboard.jpg** – Dashboard overview
-- **Dashboard_Screenshots.png** – Interactive dashboard screenshots
-
-These visuals demonstrate how the cleaned data can be used to generate meaningful business insights.
-
----
-
-# 💾 Output
-
-Running the pipeline generates:
-
-```
-Cleaned_Bug_Dataset.csv
-```
-
-The exported dataset contains:
-
-- No missing values
-- Standardized formatting
-- Engineered features
-- Clean categorical data
-- BI-ready structure
-
----
-
-# 🚀 Technologies Used
-
-- Python
 - Pandas
 - NumPy
+- Matplotlib
+- Seaborn
+
+Used for:
+
+- Data cleaning
+- Data transformation
+- Exploratory data analysis
+- Visualization
+- Statistical understanding
+
+
+## Database & SQL
+
+🗄️ **SQL (MySQL)**
+
+Used for:
+
+- Database creation
+- Data importing
+- Query writing
+- Data validation
+- Business analysis
+
+
+## Business Intelligence & Visualization
+
+📊 **Microsoft Power BI**
+
+Used for:
+
+- Interactive dashboards
+- KPI development
+- Data modeling
+- DAX calculations
+- Business reporting
+- Data storytelling
+
+
+## Additional Tools
+
+- Microsoft Excel
 - Jupyter Notebook
+- Git & GitHub
+- VS Code
 
 ---
 
-# 📦 Installation
+# 🔄 Data Analytics Workflow
 
-Clone the repository:
+## 1. Data Collection
 
-```bash
-git clone https://github.com/yourusername/your-repository.git
-```
+Collected and explored different datasets to understand:
 
-Move into the project directory:
-
-```bash
-cd your-repository
-```
-
-Install dependencies:
-
-```bash
-pip install pandas numpy
-```
+- Data structure
+- Attributes
+- Business objectives
+- Data quality issues
 
 ---
 
-# ▶️ Run the Project
+## 2. Data Cleaning & Preparation
 
-Using Python:
+Performed data preprocessing including:
 
-```bash
-python Data_Cleaning.py
-```
-
-Or open:
-
-```
-Data_Cleaning.ipynb
-```
-
-and execute the notebook cells step by step.
+✔ Handling missing values  
+✔ Removing duplicate records  
+✔ Data type correction  
+✔ Data formatting  
+✔ Data validation  
+✔ Feature preparation  
 
 ---
 
-# 📊 Key Features
+## 3. Exploratory Data Analysis (EDA)
 
-✔ Data Exploration
+Analyzed datasets to discover:
 
-✔ Missing Value Imputation
+- Patterns
+- Trends
+- Relationships
+- Important business factors
 
-✔ Duplicate Removal
-
-✔ Text Standardization
-
-✔ Date Formatting
-
-✔ Feature Engineering
-
-✔ BI-Ready Dataset
-
-✔ Dashboard Support
+Created visualizations to communicate findings effectively.
 
 ---
 
-# 📚 Learning Outcomes
+## 4. SQL Analysis
 
-This project demonstrates practical skills in:
+Used SQL to perform:
 
-- Data Cleaning
-- Data Wrangling
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Python for Data Analytics
-- Pandas Data Processing
-- Business Intelligence Data Preparation
-- Dashboard-Ready Data Modeling
+- Data extraction
+- Filtering
+- Aggregations
+- Joins
+- Business queries
+- Data validation
 
 ---
 
-# 🤝 Author
+## 5. Dashboard Development
 
-**FaaiQ ShieKh**
+Created professional Power BI dashboards with:
 
-Aspiring Data Analyst | Python | SQL | Power BI | Excel | Data Visualization
+- KPI Cards
+- Interactive Filters
+- Charts
+- Data Models
+- DAX Measures
+- Business Insights
 
-GitHub:
-https://github.com/faaiqshiekh05-stack
-
-LinkedIn:
-[(Add your LinkedIn profile here)](https://www.linkedin.com/in/faaiq-shiekh-934262299/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BRMfChwc9TiaINa2Kk3A%2FgQ%3D%3D)
+The dashboards were designed to convert complex data into simple and understandable information.
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a Star!
+# 📊 Projects & Deliverables
+
+During this internship, I worked on multiple analytics activities including:
+
+## 🔹 Data Cleaning Projects
+
+- Dataset exploration
+- Data quality checks
+- Data preprocessing pipelines
+
+
+## 🔹 Exploratory Data Analysis
+
+- Trend analysis
+- Category analysis
+- Performance analysis
+- Visualization development
+
+
+## 🔹 SQL Database Projects
+
+- Database creation
+- Data importing
+- Query-based analysis
+- Business reporting
+
+
+## 🔹 Business Intelligence Dashboards
+
+Developed interactive dashboards using Power BI focusing on:
+
+- KPI monitoring
+- Business performance tracking
+- Trend analysis
+- Decision-support insights
+
+
+## 🔹 Executive Reporting
+
+Created:
+
+- Professional reports
+- Dashboard documentation
+- Presentation slides
+- Business recommendations
+
+---
+
+# 📈 Skills Developed
+
+Through this internship, I improved my practical skills in:
+
+### Technical Skills
+
+✅ Python for Data Analysis  
+✅ Pandas & NumPy  
+✅ SQL Querying  
+✅ Power BI Development  
+✅ DAX Measures  
+✅ Data Visualization  
+✅ Excel Analytics  
+
+
+### Analytical Skills
+
+✅ Data Cleaning  
+✅ Exploratory Data Analysis  
+✅ Business Understanding  
+✅ Insight Generation  
+✅ Data Storytelling  
+✅ Report Writing  
+
+
+### Professional Skills
+
+✅ Documentation  
+✅ Presentation Skills  
+✅ Problem Solving  
+✅ Analytical Thinking  
+
+---
+
+# 📌 Key Learning Outcomes
+
+This internship provided practical experience in transforming raw datasets into meaningful business solutions.
+
+I learned how to:
+
+- Work with real-world datasets
+- Build complete analytics workflows
+- Develop professional dashboards
+- Communicate insights effectively
+- Present data-driven recommendations
+
+---
+
+# 🚀 Future Goals
+
+I aim to continue improving my skills in:
+
+- Advanced Data Analytics
+- Machine Learning
+- Predictive Modeling
+- Artificial Intelligence
+- Data Science
+
+My goal is to grow from a **Data Analyst into a Data Scientist** by continuously learning and building real-world projects.
+
+---
+
+# 👨‍💻 Author
+
+## FaaiQ ShieKh
+
+**Data Analyst | Data Science Enthusiast**
+
+Skills:
+Python | SQL | Power BI | Excel | Data Visualization | Machine Learning
+
+---
+
+⭐ If you find this repository useful, feel free to explore the projects and provide feedback.
+
+Thank you for visiting my internship portfolio!# 🐞 Bug Dataset Analysis & Cleaning Pipeline
+
+
