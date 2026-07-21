@@ -307,20 +307,174 @@ I aim to continue improving my skills in:
 My goal is to grow from a **Data Analyst into a Data Scientist** by continuously learning and building real-world projects.
 
 ---
+# 📊 Sales Performance Dashboard using Power BI
 
-# 👨‍💻 Author
+## 📌 Project Overview
 
-## FaaiQ ShieKh
-
-**Data Analyst | Data Science Enthusiast**
-
-Skills:
-Python | SQL | Power BI | Excel | Data Visualization | Machine Learning
+This project was developed as part of my **Data Analytics Internship at Codiora Software House**. The objective was to build an interactive Power BI dashboard that transforms raw sales data into meaningful business insights, enabling stakeholders to monitor business performance and make data-driven decisions.
 
 ---
 
-⭐ If you find this repository useful, feel free to explore the projects and provide feedback.
+## 🎯 Project Objectives
 
-Thank you for visiting my internship portfolio!# 🐞 Bug Dataset Analysis & Cleaning Pipeline
+- Analyze sales performance across different regions and products.
+- Track key business performance indicators (KPIs).
+- Identify top-performing products and countries.
+- Monitor profitability and sales trends.
+- Develop an interactive dashboard for business users.
+
+---
+
+## 📂 Dataset
+
+The dataset contains sales transaction records, including:
+
+- Order Details
+- Customer Information
+- Product Information
+- Country & City
+- Sales
+- Profit
+- Quantity
+- Shipping Cost
+- Order Date
+- Category
+- Sub-Category
+
+---
+
+## 🧹 Data Preparation
+
+The dataset was cleaned and validated before visualization.
+
+### Data Cleaning
+
+- Removed duplicate records
+- Handled missing values
+- Corrected data types
+- Standardized inconsistent entries
+- Validated dataset integrity
+
+---
+
+## 📈 Dashboard Features
+
+### KPI Cards
+
+- Total Profit
+- Total Orders
+- Profit Margin (%)
+- Average Order Value
+- Average Shipping Cost
+
+### Interactive Visualizations
+
+- Monthly Sales Trend
+- Sales by Country
+- Sales by Product
+- Category Distribution
+- Interactive Slicers
+- Dynamic Filtering
+
+---
+
+## 📊 Business Insights
+
+The dashboard helps answer important business questions, including:
+
+- Which month generated the highest sales?
+- Which countries contribute the most revenue?
+- Which products perform best?
+- Which product category has the highest sales?
+- What is the overall profit margin?
+- How many customer orders were processed?
+
+---
+
+## 💡 Business Recommendations
+
+- Increase inventory before peak sales periods.
+- Focus marketing efforts on high-performing countries.
+- Promote best-selling products.
+- Improve performance of low-selling products.
+- Monitor profitability regularly using dashboard KPIs.
+
+---
+
+## 🛠️ Technologies Used
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel
+- Git
+- GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+Sales-Performance-Dashboard/
+│
+├── Dashboard.pbix
+├── Dataset/
+├── Documentation/
+│   ├── Data Dictionary.docx
+│   ├── Methodology.docx
+│   ├── Dashboard User Guide.docx
+│   └── Tool List.docx
+├── Presentation/
+│   └── Executive Presentation.pptx
+├── Screenshots/
+└── README.md
+```
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Validation
+- Data Modeling
+- DAX Calculations
+- Dashboard Development
+- Business Intelligence
+- Data Visualization
+- Analytical Thinking
+- Problem Solving
+- Documentation
+
+---
+
+## 🔮 Future Enhancements
+
+- Real-time data refresh
+- Power BI Service deployment
+- Sales forecasting
+- Customer segmentation
+- Predictive analytics
+- Inventory optimization
+- Mobile dashboard support
+
+---
+
+## 👨‍💻 Author
+
+**FaaiQ ShieKh**
+
+Data Analytics Intern
+
+Codiora Software House
+
+GitHub: https://github.com/faaiqshiekh05-stack
+
+LinkedIn: *(Add your LinkedIn profile link here)*
+
+---
+
+⭐ If you found this project helpful, consider giving it a star and sharing your feedback.
+
+
 
 
